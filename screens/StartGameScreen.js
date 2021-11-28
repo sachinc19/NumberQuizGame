@@ -13,6 +13,7 @@ import Card from "../components/Card";
 import Input from "../components/Input";
 import Color from "../components/constants/Color";
 import NumberContainer from "../components/NumberContainer";
+//import BodyText from "../components/BodyText";
 const StartGameScreen = (props) => {
   const [enteredValue, setEnteredValue] = useState("");
   const [confirmed, setConfirmed] = useState(false);
